@@ -14,10 +14,10 @@ import (
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/http"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/metric"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict"
-	"github.com/OpenSlides/openslides-go/auth"
-	"github.com/OpenSlides/openslides-go/environment"
-	"github.com/OpenSlides/openslides-go/oserror"
-	"github.com/OpenSlides/openslides-go/redis"
+	"github.com/peb-adr/openslides-go/auth"
+	"github.com/peb-adr/openslides-go/environment"
+	"github.com/peb-adr/openslides-go/oserror"
+	"github.com/peb-adr/openslides-go/redis"
 	"github.com/alecthomas/kong"
 )
 

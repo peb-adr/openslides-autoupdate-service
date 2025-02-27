@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict/perm"
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
 )
 
 // CM is the name of a collection and a mode.

@@ -1,7 +1,7 @@
 package slide_test
 
 import (
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
 )
 
 func convertData(data map[string]string) map[dskey.Key][]byte {

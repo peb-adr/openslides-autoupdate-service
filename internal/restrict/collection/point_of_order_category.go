@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
 )
 
 // PointOfOrderCategory handels restriction for the point_of_order_category collection.

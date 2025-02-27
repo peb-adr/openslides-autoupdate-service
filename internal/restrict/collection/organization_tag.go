@@ -3,7 +3,7 @@ package collection
 import (
 	"context"
 
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
 )
 
 // OrganizationTag handels restrictions of the collection organization_tag.

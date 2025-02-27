@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/metric"
-	"github.com/OpenSlides/openslides-go/oserror"
-	"github.com/OpenSlides/openslides-go/redis"
+	"github.com/peb-adr/openslides-go/oserror"
+	"github.com/peb-adr/openslides-go/redis"
 )
 
 // RedisMetric is used for the connection counter.

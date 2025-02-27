@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	restrict "github.com/OpenSlides/openslides-autoupdate-service/internal/restrict"
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
-	"github.com/OpenSlides/openslides-go/datastore/dsmock"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dsmock"
 )
 
 func TestRestrict(t *testing.T) {
