@@ -75,6 +75,8 @@ github.com/ory/dockertest/v3 v3.11.0 h1:OiHcxKAvSDUwsEVh2BjxQQc/5EHz9n0va9awCtNG
 github.com/ory/dockertest/v3 v3.11.0/go.mod h1:VIPxS1gwT9NpPOrfD3rACs8Y9Z7yhzO4SB194iUDnUI=
 github.com/ostcar/topic v0.4.1 h1:ORxFOS8BAVKRaeAr3lwYrETQAuKojCUxzWOoBn0CQTw=
 github.com/ostcar/topic v0.4.1/go.mod h1:13aefloBRYAhhb4BWjwb0hMRNx+9QSbdyCJ631ioCW4=
+github.com/peb-adr/openslides-go v0.0.2-0.20250227150902-d9e179bb3ea5 h1:eGg/hkZjgr/JdL3E7IxEV5FYYmC0nq1B78X4fOSyj+I=
+github.com/peb-adr/openslides-go v0.0.2-0.20250227150902-d9e179bb3ea5/go.mod h1:88pCdtuqMNCSyxfkaIy0e4ghIxOcjuOV5jp7px0f45c=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
