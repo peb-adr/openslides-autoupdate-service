@@ -22,9 +22,9 @@ import (
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/autoupdate"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/keysbuilder"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/metric"
-	"github.com/OpenSlides/openslides-autoupdate-service/internal/oserror"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dskey"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/redis"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/oserror"
+	"github.com/peb-adr/openslides-go/redis"
 	"github.com/klauspost/compress/zstd"
 )
 

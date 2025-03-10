@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
 )
 
 // AssignmentCandidate handels the permissions for assignment_candiate collections.

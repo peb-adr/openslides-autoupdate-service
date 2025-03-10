@@ -11,14 +11,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OpenSlides/openslides-autoupdate-service/internal/oserror"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict/collection"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict/perm"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dsfetch"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dskey"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/flow"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/fastjson"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/set"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/flow"
+	"github.com/peb-adr/openslides-go/fastjson"
+	"github.com/peb-adr/openslides-go/oserror"
+	"github.com/peb-adr/openslides-go/set"
 )
 
 // Middleware can be used as a flow.Getter that restrict the data for a

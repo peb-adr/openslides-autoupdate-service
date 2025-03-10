@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/keysbuilder"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dskey"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dsmock"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dsmock"
 )
 
 func TestKeys(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/set"
+	"github.com/peb-adr/openslides-go/set"
 )
 
 func TestRestrictModeForAll(t *testing.T) {

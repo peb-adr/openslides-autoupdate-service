@@ -3,7 +3,7 @@ package collection
 import (
 	"context"
 
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
 )
 
 // Gender handles permission for action_worker.

@@ -8,10 +8,10 @@ import (
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/autoupdate"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/keysbuilder"
-	"github.com/OpenSlides/openslides-autoupdate-service/internal/oserror"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dskey"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dsmock"
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/environment"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dsmock"
+	"github.com/peb-adr/openslides-go/environment"
+	"github.com/peb-adr/openslides-go/oserror"
 )
 
 var userNameKey = dskey.MustKey("user/1/username")

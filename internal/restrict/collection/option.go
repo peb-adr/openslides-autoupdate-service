@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/OpenSlides/openslides-autoupdate-service/pkg/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
 )
 
 // Option handels restrictions of the collection option.
