@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
 )
 
 // InvalidError is an error that happens on an invalid request.

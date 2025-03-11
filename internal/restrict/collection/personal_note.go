@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict/perm"
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
-	"github.com/OpenSlides/openslides-go/set"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/set"
 )
 
 // PersonalNote handels restriction for the personal_node collection.

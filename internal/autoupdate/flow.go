@@ -9,10 +9,10 @@ import (
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/metric"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/projector"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/projector/slide"
-	"github.com/OpenSlides/openslides-go/datastore"
-	"github.com/OpenSlides/openslides-go/datastore/cache"
-	"github.com/OpenSlides/openslides-go/datastore/flow"
-	"github.com/OpenSlides/openslides-go/environment"
+	"github.com/peb-adr/openslides-go/datastore"
+	"github.com/peb-adr/openslides-go/datastore/cache"
+	"github.com/peb-adr/openslides-go/datastore/flow"
+	"github.com/peb-adr/openslides-go/environment"
 )
 
 // Flow is the connection to the database for the autoupdate service.

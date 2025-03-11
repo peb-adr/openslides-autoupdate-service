@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
-	"github.com/OpenSlides/openslides-go/set"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/set"
 )
 
 // MotionSubmitter handels restrictions of the collection motion_submitter.

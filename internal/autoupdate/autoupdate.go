@@ -19,12 +19,12 @@ import (
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict/collection"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/restrict/perm"
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
-	"github.com/OpenSlides/openslides-go/datastore/flow"
-	"github.com/OpenSlides/openslides-go/environment"
-	"github.com/OpenSlides/openslides-go/oserror"
-	"github.com/OpenSlides/openslides-go/set"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/flow"
+	"github.com/peb-adr/openslides-go/environment"
+	"github.com/peb-adr/openslides-go/oserror"
+	"github.com/peb-adr/openslides-go/set"
 	"github.com/ostcar/topic"
 )
 

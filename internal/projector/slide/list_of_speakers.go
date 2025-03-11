@@ -11,7 +11,7 @@ import (
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/projector"
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/projector/datastore"
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
 )
 
 type dbListOfSpeakers struct {
@@ -94,9 +94,9 @@ func ListOfSpeaker(store *projector.SlideStore) {
 	})
 }
 
-// CurrentListOfSpeakers renders the current_list_of_speakers slide.
+// CurrentListOfSpeakers renders the current_los slide.
 func CurrentListOfSpeakers(store *projector.SlideStore) {
-	store.RegisterSliderFunc("current_list_of_speakers", func(ctx context.Context, fetch *datastore.Fetcher, p7on *projector.Projection) (encoded []byte, err error) {
+	store.RegisterSliderFunc("current_los", func(ctx context.Context, fetch *datastore.Fetcher, p7on *projector.Projection) (encoded []byte, err error) {
 		losID, _, err := getLosID(ctx, p7on.ContentObjectID, fetch)
 		if err != nil {
 			return nil, fmt.Errorf("error in getLosID: %w", err)

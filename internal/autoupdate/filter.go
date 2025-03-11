@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
 	"github.com/zeebo/xxh3"
 )
 

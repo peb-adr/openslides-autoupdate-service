@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/OpenSlides/openslides-go/datastore/dsfetch"
+	"github.com/peb-adr/openslides-go/datastore/dsfetch"
 )
 
 // Permission holds the information which permissions and groups a user has.
