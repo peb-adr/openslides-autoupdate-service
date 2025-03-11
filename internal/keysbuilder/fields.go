@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
-	"github.com/OpenSlides/openslides-go/fastjson"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/fastjson"
 )
 
 const (

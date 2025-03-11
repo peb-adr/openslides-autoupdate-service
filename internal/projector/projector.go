@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/OpenSlides/openslides-autoupdate-service/internal/projector/datastore"
-	"github.com/OpenSlides/openslides-go/datastore/dskey"
-	"github.com/OpenSlides/openslides-go/datastore/dsrecorder"
-	"github.com/OpenSlides/openslides-go/datastore/flow"
-	"github.com/OpenSlides/openslides-go/oserror"
+	"github.com/peb-adr/openslides-go/datastore/dskey"
+	"github.com/peb-adr/openslides-go/datastore/dsrecorder"
+	"github.com/peb-adr/openslides-go/datastore/flow"
+	"github.com/peb-adr/openslides-go/oserror"
 )
 
 const longCalculation = time.Second
